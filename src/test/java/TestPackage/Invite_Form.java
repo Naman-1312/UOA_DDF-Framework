@@ -36,6 +36,7 @@ package TestPackage;
 			}
 			
 			driver = openBrowser(hMap.get("Browser"));
+			
 		    
 		    driver.get("https://studentpanel.yoctel.com/Home/UserForm?f=E6A6012C6BDCFEE7F93A2B6D66DD5377&r=C3264FDB4584EC8D277176DABF75D370");
 			InviteFormPage invitePage = new InviteFormPage(driver);
