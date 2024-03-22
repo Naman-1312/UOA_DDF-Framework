@@ -31,8 +31,9 @@ public class Login extends BaseClass {
 		}
 		
 		driver = openBrowser(hMap.get("Browser"));
-	    driver.get(prop.getProperty("url"));
-	    LoginPage loginPage = new LoginPage(driver);
+	    //driver.get(prop.getProperty("url"));
+	    driver.get("https://studentpanel2.testpedia.in");
+		LoginPage loginPage = new LoginPage(driver);
 	    loginPage.enterUsername(hMap.get("Username"));
 	    loginPage.enterPassword(hMap.get("Password"));
 	    loginPage.loginClick();
