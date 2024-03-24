@@ -71,7 +71,7 @@ public class InviteFormPage {
 	private WebElement fatherPlaceOfWorkField;
     @FindBy (id = "txtMotherPlaceofWork")	
     private WebElement motherPlaceOfWorkField;
-    @FindBy (id = "HusbandPlaceofWork")
+    @FindBy (id = "txtHusbandPlaceofWork")
     private WebElement husbandPlaceOfWorkField;
     @FindBy (id = "txtFatherAnnualIncome")
     private WebElement fatherAnnualIncomeField;
@@ -246,6 +246,6 @@ public void submitButtonClick (String submitBtnClick) {
 	public void enterPrimaryEmailId(String primaryEmailId){
 		primaryEmailIdField.sendKeys(primaryEmailId);
 	}
-	}
 	
+}
 

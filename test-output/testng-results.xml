@@ -2,42 +2,32 @@
 <testng-results ignored="0" total="3" passed="0" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-22T16:06:21 IST" name="Default suite" finished-at="2024-03-22T16:06:33 IST" duration-ms="12135">
+  <suite started-at="2024-03-24T17:34:47 IST" name="Default suite" finished-at="2024-03-24T17:35:28 IST" duration-ms="41539">
     <groups>
     </groups>
-    <test started-at="2024-03-22T16:06:21 IST" name="Default test" finished-at="2024-03-22T16:06:33 IST" duration-ms="12135">
+    <test started-at="2024-03-24T17:34:47 IST" name="Default test" finished-at="2024-03-24T17:35:28 IST" duration-ms="41539">
       <class name="TestPackage.Invite_Form">
-        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@6fdbe764]" started-at="2024-03-22T16:06:22 IST" name="loginTest" data-provider="dataProvider" finished-at="2024-03-22T16:06:33 IST" duration-ms="10983" status="FAIL">
+        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@7b36aa0c]" started-at="2024-03-24T17:34:48 IST" name="loginTest" data-provider="dataProvider" finished-at="2024-03-24T17:35:28 IST" duration-ms="40428" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{PassingDate=Failure, lastName=Last Name, fatherName=FatherName, mobileNumber=9.45010101E9, postalCode=123456.0, MotherPlaceOfWork=Failure, FatherMobileNumber=motherName, FatherAnnualIncome=Failure, emailId=naman.goel@yoctel.com, MotherOccupation=Failure, Marks=Failure, FatherEmailId=motherName, OtherQualification=Failure, ExpectedResult=Failure, GuardianEmailId=motherName, HusbandOccupation=motherName, GaurdianAnnualIncome=Failure, CourseType=Failure, GaurdianMobileNumber=motherName, HusbandEmailId=motherName, HusbandPlaceOfWork=Failure, PrimaryEmailId=motherName, QualificationName=Failure, address2=Address2, Percentage=Failure, address1=Address1, GaurdianName=motherName, motherName=motherName, Runmode=Y, dateOfBirth=36892.0, Grade=Failure, HusbandName=motherName, FatherOccupation=motherName, CourseDuration=Failure, firstName=first Name, HusbandAnnualIncome=Failure, HusbandMobileNumber=motherName, MotherEmailId=motherName, SpecializationName=Failure, MotherMobileNumber=motherName, FatherPlaceOfWork=Failure, middleName=Middle Name, InstitueName=Failure, Class=Failure, primaryAddress=primaryAddress, Browser=Chrome, MotherAnnualIncome=Failure}]]>
+                <![CDATA[{MotherPlaceOfWork=Failure, FatherMobileNumber=9281919119, ExpectedResult=Success, HusbandOccupation=motherName, MotherName=motherName, GaurdianAnnualIncome=Failure, HusbandPlaceOfWork=Failure, DateOfBirth=36892.0, EmailId=naman.goel@yoctel.com, PrimaryEmailId=primaryemail@gmail.com, QualificationName=Failure, GaurdianName=motherName, Runmode=Y, Grade=First, HusbandName=HusbandName, FatherOccupation=motherName, ProfilePicturePath=C:\Users\Naman Goel\Desktop\Error.png, MotherEmailId=motheremaild@gmail.com, SpecializationName=Specialization, FatherPlaceOfWork=Failure, Class=Failure, LastName=Last Name, Browser=Edge, PassingDate=36892.0, PrimaryAddress=primaryAddress, FatherAnnualIncome=Failure, PostalCode=123456, MotherOccupation=Failure, Marks=80, FatherEmailId=fatheremail@gmail.com, OtherQualification=Failure, GuardianEmailId=guardianemail@gmail.com, CourseType=Regular, GaurdianMobileNumber=9281919119, HusbandEmailId=husbandemail@gmail.com, Percentage=70, FirstName=First Name, Address2=Address2, Address1=Address1, MiddleName=Middle Name, CourseDuration=1, HusbandAnnualIncome=Failure, MobileNumber=9450101010, HusbandMobileNumber=9281919119, MotherMobileNumber=9281919119, InstitueName=Failure, FatherName=FatherName, MotherAnnualIncome=Failure}]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to find element with locator By.id: txtFirstname
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: RemoteWebDriver]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: txtFirstname
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
-at pageobject.InviteFormPage.enterFirstName(InviteFormPage.java:181)
-at TestPackage.Invite_Form.loginTest(Invite_Form.java:43)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at TestPackage.Invite_Form.loginTest(Invite_Form.java:129)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,11 +58,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@6fdbe764]" started-at="2024-03-22T16:06:33 IST" name="loginTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1711103793845" status="FAIL">
+        <test-method is-config="true" signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@7b36aa0c]" started-at="2024-03-24T17:35:28 IST" name="loginTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1711281928851" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -119,11 +109,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@6fdbe764]" started-at="2024-03-22T16:06:33 IST" name="loginTest" data-provider="dataProvider" finished-at="2024-03-22T16:06:33 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@7b36aa0c]" started-at="2024-03-24T17:35:28 IST" name="loginTest" data-provider="dataProvider" finished-at="2024-03-24T17:35:28 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{PassingDate=, lastName=1.2345678E7, fatherName=, mobileNumber=1.2345678E7, postalCode=, MotherPlaceOfWork=, FatherMobileNumber=, FatherAnnualIncome=, emailId=1.2345678E7, MotherOccupation=, Marks=, FatherEmailId=, OtherQualification=Failure, ExpectedResult=Failure, GuardianEmailId=, HusbandOccupation=, GaurdianAnnualIncome=, CourseType=, GaurdianMobileNumber=, HusbandEmailId=, HusbandPlaceOfWork=, PrimaryEmailId=, QualificationName=, address2=, Percentage=, address1=, GaurdianName=, motherName=, Runmode=N, dateOfBirth=1.2345678E7, Grade=, HusbandName=, FatherOccupation=, CourseDuration=, firstName=558-18103, HusbandAnnualIncome=, HusbandMobileNumber=, MotherEmailId=, SpecializationName=, MotherMobileNumber=, FatherPlaceOfWork=, middleName=1.2345678E7, InstitueName=, Class=Failure, primaryAddress=, Browser=Firefox, MotherAnnualIncome=}]]>
+                <![CDATA[{MotherPlaceOfWork=, FatherMobileNumber=, ExpectedResult=Failure, HusbandOccupation=, MotherName=, GaurdianAnnualIncome=, HusbandPlaceOfWork=, DateOfBirth=1.2345678E7, EmailId=1.2345678E7, PrimaryEmailId=, QualificationName=, GaurdianName=, Runmode=N, Grade=, HusbandName=, FatherOccupation=, ProfilePicturePath=, MotherEmailId=, SpecializationName=, FatherPlaceOfWork=, Class=Failure, LastName=1.2345678E7, Browser=Firefox, PassingDate=, PrimaryAddress=, FatherAnnualIncome=, PostalCode=, MotherOccupation=, Marks=, FatherEmailId=, OtherQualification=Failure, GuardianEmailId=, CourseType=, GaurdianMobileNumber=, HusbandEmailId=, Percentage=, FirstName=558-18103, Address2=, Address1=, MiddleName=1.2345678E7, CourseDuration=, HusbandAnnualIncome=, MobileNumber=1.2345678E7, HusbandMobileNumber=, MotherMobileNumber=, InstitueName=, FatherName=, MotherAnnualIncome=}]]>
               </value>
             </param>
           </params>
@@ -173,15 +163,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@6fdbe764]" started-at="2024-03-22T16:06:33 IST" name="loginTest" finished-at="2024-03-22T16:06:33 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@7b36aa0c]" started-at="2024-03-24T17:35:28 IST" name="loginTest" finished-at="2024-03-24T17:35:28 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@6fdbe764]" started-at="2024-03-22T16:06:33 IST" name="loginTest" data-provider="dataProvider" finished-at="2024-03-22T16:06:33 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@7b36aa0c]" started-at="2024-03-24T17:35:28 IST" name="loginTest" data-provider="dataProvider" finished-at="2024-03-24T17:35:28 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{PassingDate=, lastName=1234567.0, fatherName=, mobileNumber=1234567.0, postalCode=, MotherPlaceOfWork=, FatherMobileNumber=, FatherAnnualIncome=, emailId=1234567.0, MotherOccupation=, Marks=, FatherEmailId=, OtherQualification=Success, ExpectedResult=Success, GuardianEmailId=, HusbandOccupation=, GaurdianAnnualIncome=, CourseType=, GaurdianMobileNumber=, HusbandEmailId=, HusbandPlaceOfWork=, PrimaryEmailId=, QualificationName=, address2=, Percentage=, address1=, GaurdianName=, motherName=, Runmode=N, dateOfBirth=1234567.0, Grade=, HusbandName=, FatherOccupation=, CourseDuration=, firstName=558-18106, HusbandAnnualIncome=, HusbandMobileNumber=, MotherEmailId=, SpecializationName=, MotherMobileNumber=, FatherPlaceOfWork=, middleName=1234567.0, InstitueName=, Class=Success, primaryAddress=, Browser=Edge, MotherAnnualIncome=}]]>
+                <![CDATA[{MotherPlaceOfWork=, FatherMobileNumber=, ExpectedResult=Success, HusbandOccupation=, MotherName=, GaurdianAnnualIncome=, HusbandPlaceOfWork=, DateOfBirth=1234567.0, EmailId=1234567.0, PrimaryEmailId=, QualificationName=, GaurdianName=, Runmode=N, Grade=, HusbandName=, FatherOccupation=, ProfilePicturePath=, MotherEmailId=, SpecializationName=, FatherPlaceOfWork=, Class=Success, LastName=1234567.0, Browser=Edge, PassingDate=, PrimaryAddress=, FatherAnnualIncome=, PostalCode=, MotherOccupation=, Marks=, FatherEmailId=, OtherQualification=Success, GuardianEmailId=, CourseType=, GaurdianMobileNumber=, HusbandEmailId=, Percentage=, FirstName=558-18106, Address2=, Address1=, MiddleName=1234567.0, CourseDuration=, HusbandAnnualIncome=, MobileNumber=1234567.0, HusbandMobileNumber=, MotherMobileNumber=, InstitueName=, FatherName=, MotherAnnualIncome=}]]>
               </value>
             </param>
           </params>
@@ -231,7 +221,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@6fdbe764]" started-at="2024-03-22T16:06:33 IST" name="loginTest" finished-at="2024-03-22T16:06:33 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="loginTest(java.util.HashMap)[pri:0, instance:TestPackage.Invite_Form@7b36aa0c]" started-at="2024-03-24T17:35:28 IST" name="loginTest" finished-at="2024-03-24T17:35:28 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
